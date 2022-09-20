@@ -1,5 +1,5 @@
 #!/bin/bash
-FILES="*.sui"
+FILES="*"
 for f in $FILES
 do
   country=$(echo $f | cut -d'.' -f1)
